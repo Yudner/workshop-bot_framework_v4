@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\YUDNER\\Source\\Repos\\Cine\\CineBot\\CineBot.csproj": {}
+    "C:\\Users\\YUDNER\\Desktop\\Cine\\CineBot\\CineBot.csproj": {}
   },
   "projects": {
-    "C:\\Users\\YUDNER\\Source\\Repos\\Cine\\CineBot\\CineBot.csproj": {
+    "C:\\Users\\YUDNER\\Desktop\\Cine\\CineBot\\CineBot.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\YUDNER\\Source\\Repos\\Cine\\CineBot\\CineBot.csproj",
+        "projectUniqueName": "C:\\Users\\YUDNER\\Desktop\\Cine\\CineBot\\CineBot.csproj",
         "projectName": "CineBot",
-        "projectPath": "C:\\Users\\YUDNER\\Source\\Repos\\Cine\\CineBot\\CineBot.csproj",
+        "projectPath": "C:\\Users\\YUDNER\\Desktop\\Cine\\CineBot\\CineBot.csproj",
         "packagesPath": "C:\\Users\\YUDNER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\YUDNER\\Source\\Repos\\Cine\\CineBot\\obj\\",
+        "outputPath": "C:\\Users\\YUDNER\\Desktop\\Cine\\CineBot\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

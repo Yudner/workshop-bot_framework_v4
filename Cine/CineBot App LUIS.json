@@ -1,0 +1,172 @@
+{
+  "luis_schema_version": "4.0.0",
+  "versionId": "0.1",
+  "name": "CineBot",
+  "desc": "",
+  "culture": "es-es",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "Agradecer"
+    },
+    {
+      "name": "ComprarPelicula"
+    },
+    {
+      "name": "Despedir"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "Saludar"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "adios",
+      "intent": "Despedir",
+      "entities": []
+    },
+    {
+      "text": "buenas noches",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "buenas tardes",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "bye",
+      "intent": "Despedir",
+      "entities": []
+    },
+    {
+      "text": "comprar pelicula",
+      "intent": "ComprarPelicula",
+      "entities": []
+    },
+    {
+      "text": "dime un chiste",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "genial gracias",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "gracias",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "gracias me ayudaste",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "gracias por el apoyo",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "gracias por la ayuda",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "hasta luego",
+      "intent": "Despedir",
+      "entities": []
+    },
+    {
+      "text": "hasta pronto",
+      "intent": "Despedir",
+      "entities": []
+    },
+    {
+      "text": "hola",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "hola buenos dias",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "hola como estas",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "hola que tal",
+      "intent": "Saludar",
+      "entities": []
+    },
+    {
+      "text": "llama a la policia",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "me tengo que ir",
+      "intent": "Despedir",
+      "entities": []
+    },
+    {
+      "text": "muchas gracias",
+      "intent": "Agradecer",
+      "entities": []
+    },
+    {
+      "text": "necesito una pelicula urgente",
+      "intent": "ComprarPelicula",
+      "entities": []
+    },
+    {
+      "text": "nos vemos",
+      "intent": "Despedir",
+      "entities": []
+    },
+    {
+      "text": "quiero comprar una peli",
+      "intent": "ComprarPelicula",
+      "entities": []
+    },
+    {
+      "text": "quiero un chifa",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "quiero una película",
+      "intent": "ComprarPelicula",
+      "entities": []
+    },
+    {
+      "text": "vendeme una película",
+      "intent": "ComprarPelicula",
+      "entities": []
+    },
+    {
+      "text": "ya me voy",
+      "intent": "Despedir",
+      "entities": []
+    }
+  ],
+  "settings": []
+}

@@ -1,4 +1,5 @@
-﻿using CineBot.Servicios.ServicioLuis;
+﻿using CineBot.Dialogs.ComprarPelicula;
+using CineBot.Servicios.ServicioLuis;
 using Microsoft.Bot.Builder;
 using Microsoft.Bot.Builder.Dialogs;
 using System;
@@ -21,6 +22,7 @@ namespace CineBot.Dialogs
                 Fin
             };
             AddDialog(new WaterfallDialog(nameof(WaterfallDialog), waterfallStep));
+            AddDialog(new ComprarPeliculaDialog());
         }
 
         private async Task<DialogTurnResult> Inicio(WaterfallStepContext stepContext, CancellationToken cancellationToken)
@@ -73,9 +75,9 @@ namespace CineBot.Dialogs
             await stepContext.Context.SendActivityAsync("Lo siento, pero no entiendo", cancellationToken: cancellationToken);
         }
 
-        private Task<DialogTurnResult> IntencionComprarPelicula(WaterfallStepContext stepContext, CancellationToken cancellationToken)
+        private async Task<DialogTurnResult> IntencionComprarPelicula(WaterfallStepContext stepContext, CancellationToken cancellationToken)
         {
-            throw new NotImplementedException();
+            return await stepContext.BeginDialogAsync(nameof(ComprarPeliculaDialog), cancellationToken: cancellationToken);
         }
 
         private async Task<DialogTurnResult> Fin(WaterfallStepContext stepContext, CancellationToken cancellationToken)
